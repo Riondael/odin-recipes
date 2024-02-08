@@ -1,5 +1,33 @@
+html {
+    background-color: slategray;
+}
+
+.top-panel {
+    background-color: honeydew;
+    margin: 10px 150px;
+}
+
+.content-panel {
+    display: flexbox;
+    background-color: honeydew;
+    padding: 10px;    
+    margin-left: 5px;
+    border: dashed 5px slategray;
+}
+
+.content-panel .content-panel{
+    display: flexbox;
+    background-color: rgb(201, 214, 201);
+    border: dotted 3px honeydew;
+    width: fit-content;
+    margin: auto;
+}
+
 #large-head {
-    font-size: 200px;
+    font-size: 100px;
+    padding: 10px 50px;
+    border: solid 10px black;
+    text-align: center;
 }
 
 .large-mono {
@@ -13,14 +41,10 @@
     font-style: bold;
 }
 
-* {
-    text-align: center;
-    list-style-position: inside;
-}
-
 p, li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    padding: 10px;
 }
 
 .bckgrColor {
