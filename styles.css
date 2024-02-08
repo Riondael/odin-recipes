@@ -1,10 +1,11 @@
 html {
     background-color: slategray;
+    padding: 50px;
 }
 
 .top-panel {
     background-color: honeydew;
-    margin: 10px 550px;
+    margin: 10px auto;
 }
 
 .content-panel {
