@@ -4,15 +4,16 @@ html {
 
 .top-panel {
     background-color: honeydew;
-    margin: 10px 150px;
+    margin: 10px 550px;
 }
 
 .content-panel {
     display: flexbox;
     background-color: honeydew;
     padding: 10px;    
-    margin-left: 5px;
+    margin: 20px auto;
     border: dashed 5px slategray;
+    width: fit-content;
 }
 
 .content-panel .content-panel{
@@ -25,7 +26,7 @@ html {
 
 #large-head {
     font-size: 100px;
-    padding: 10px 50px;
+    padding: 10px;
     border: solid 10px black;
     text-align: center;
 }
