@@ -16,12 +16,28 @@ html {
     width: fit-content;
 }
 
-.content-panel .content-panel{
+.panel {
+    background-color: honeydew;
+    padding: 10px;
+    margin: 20px 0px;
+    border: dashed 5px slategray;
+    width: fit-content;
+}
+
+.content-panel .content-panel {
     display: flexbox;
     background-color: rgb(201, 214, 201);
     border: dotted 3px honeydew;
     width: fit-content;
-    margin: auto;
+    margin: 10px;
+}
+
+.panel .content-panel {
+    display: flexbox;
+    background-color: rgb(201, 214, 201);
+    border: dotted 3px honeydew;
+    margin: 10px;
+    padding-right: 20%;
 }
 
 #large-head {
@@ -46,4 +62,10 @@ p, li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 10px;
+}
+
+.content-panel p {
+    display: flexbox;
+    width: fit-content;
+    margin: 10px auto;
 }
