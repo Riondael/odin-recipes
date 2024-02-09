@@ -18,6 +18,7 @@ html {
 }
 
 .panel {
+    display: inline-block;
     background-color: honeydew;
     padding: 10px;
     margin: 20px 0px;
@@ -30,7 +31,7 @@ html {
     background-color: rgb(201, 214, 201);
     border: dotted 3px honeydew;
     width: fit-content;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 .panel .content-panel {
@@ -51,6 +52,8 @@ html {
 .large-mono {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+    width: fit-content;
+    margin: 10px auto;
 }
 
 .xtraLarge-mono {
@@ -67,6 +70,12 @@ p, li {
 
 .content-panel p {
     display: flexbox;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+a {
+    display: block;
     width: fit-content;
     margin: 10px auto;
 }
